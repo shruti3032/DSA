@@ -7,11 +7,11 @@ public class Main
 	    Scanner sc = new Scanner(System.in);
 	    
 	    double fahrenheit = sc.nextDouble();
-	    double Celcius = (fahrenheit - 32) / 1.8;
-		  System.out.println("Celcius : "+Celcius);
+	    double Celsius = (fahrenheit - 32) / 1.8;
+		System.out.println("Celsius : "+Celsius);
 		
-// 		double Celcius = sc.nextDouble();
-// 	  double fahrenheit = (Celcius * 1.8 ) + 32 ;
+// 		 double Celsius = sc.nextDouble();
+// 	  	double fahrenheit = (Celsius * 1.8 ) + 32 ;
 // 		System.out.println("Fahrenheit : "+fahrenheit);
 	}
 }
